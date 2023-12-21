@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #131518;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper__grade {
+    border-radius: 30px;
+    background: var(
+        --black-gradient,
+        radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+    );
+    width: 412px;
+    height: 416px;
+    padding: 32px;
+}
+
+.title {
+    font-family: "Overpass", sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 7px;
+}
+
+.descr {
+    font-family: "Overpass", sans-serif;
+    color: #969fad;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.wrapper__btn {
+    display: flex;
+    gap: 21px;
+    padding-bottom: 43px;
+}
+
+.btn {
+    border: none;
+    background-color: #262e38;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: #7c8798;
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.btn:hover {
+    background-color: #fc7614;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn:active {
+    background-color: #7c8798;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn__submit {
+    border-radius: 22.5px;
+    background: #fc7614;
+    width: 341px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.wrapper__thank {
+    display: none;
+    border-radius: 30px;
+    background: var(
+        --black-gradient,
+        radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+    );
+    width: 412px;
+    height: 416px;
+    padding: 32px;
+}
+
+.wrapper__thank .logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.wrapper__thank .title {
+    text-align: center;
+}
+
+.select {
+    margin: 0 auto;
+    color: #fc7614;
+    text-align: center;
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 4px 20px;
+    border-radius: 22.5px;
+    background: #262e38;
+    margin-top: 32px;
+    width: 200px;
+    height: 32px;
+}
