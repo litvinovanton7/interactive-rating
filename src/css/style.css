@@ -97,6 +97,12 @@ body {
     letter-spacing: 2px;
 }
 
+.btn__submit:hover {
+    background-color: #fff;
+    color: #fc7614;
+    transition: 0.2s;
+}
+
 .wrapper__thank {
     display: none;
     border-radius: 30px;
