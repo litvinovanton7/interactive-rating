@@ -66,6 +66,11 @@ body {
     letter-spacing: 0.2px;
 }
 
+.grey {
+    background-color: #7C8798;
+    color: #fff;
+}
+
 .btn:hover {
     background-color: #fc7614;
     color: #fff;
